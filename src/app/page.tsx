@@ -13,14 +13,14 @@ export default function Home() {
         {/* Hero Section */}
         <section className="max-w-7xl mx-auto px-5 sm:px-6 lg:px-10 py-16 lg:py-32 min-h-[30vh] flex items-center overflow-hidden">
 
-          <div className="grid grid-cols-1 lg:grid-cols-2 gap-10 items-center w-full">
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-0 items-center w-full">
         {/*<section className="max-w-7xl mx-auto px-6 lg:px-10 py-24 min-h-screen flex items-center">
 
           <div className="grid lg:grid-cols-[45%_55%] gap-12 items-center w-full"> */}
 
             <div>
 
-              <h1 className="text-3xl sm:text-5xl md:text-6xl lg:text-7xl font-bold leading-tight">
+              <h1 className="text-3xl sm:text-3xl md:text-6xl lg:text-7xl font-bold leading-tight">
                 Accelerating
                 <span className="block text-cyan-400">
                   Semiconductor
@@ -55,7 +55,7 @@ export default function Home() {
 
             </div>
 {/* Hero Graphics */}
-<div className="relative w-[700px] h-[700px] mx-auto hidden lg:block">
+<div className="relative w-[500px] xl:w-[650px] h-[500px] xl:h-[650px] mx-auto hidden lg:block">
 
   {/* Glow */}
   <div className="absolute inset-0 flex items-center justify-center">
@@ -114,7 +114,7 @@ export default function Home() {
       "/images/pd.png",
     ].map((img, index) => {
 
-      const radius = 280;
+      const radius = 270;
       const angle = (index * 360) / 8;
 
       const x =

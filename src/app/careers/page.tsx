@@ -200,14 +200,14 @@ export default function Careers() {
             <p className="text-slate-300 mb-8">
               Send your updated resume to:
             </p>
+            <div className="w-full max-w-2xl mx-auto bg-slate-800 border border-cyan-500 rounded-xl px-4 md:px-8 py-4">
 
-            <div className="inline-block bg-slate-800 border border-cyan-500 rounded-xl px-8 py-4">
-
-              <p className="text-cyan-400 text-xl font-semibold">
-                devkartriveni@gmail.com
-              </p>
+             <p className="text-cyan-400 text-base sm:text-lg md:text-xl font-semibold break-all">
+              devkartriveni@gmail.com
+             </p>
 
             </div>
+            
 
             <p className="mt-6 text-slate-400">
               Subject: Application for [Position Name]

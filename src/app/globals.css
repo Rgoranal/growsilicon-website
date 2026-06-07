@@ -252,3 +252,11 @@ body {
 .animate-chip-reveal {
   animation: chipReveal 3s ease forwards;
 }
+html,
+body {
+  overflow-x: hidden;
+  width: 100%;
+}
+*{
+  box-sizing: border-box;
+}

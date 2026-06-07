@@ -11,16 +11,16 @@ export default function Home() {
       <main className="bg-slate-950 text-white min-h-screen">
 
         {/* Hero Section */}
-        <section className="max-w-7xl mx-auto px-10 py-32 min-h-[30vh] flex items-center">
+        <section className="max-w-7xl mx-auto px-5 sm:px-6 lg:px-10 py-16 lg:py-32 min-h-[30vh] flex items-center overflow-hidden">
 
-          <div className="grid lg:grid-cols-2 gap-10 items-center">
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-10 items-center w-full">
         {/*<section className="max-w-7xl mx-auto px-6 lg:px-10 py-24 min-h-screen flex items-center">
 
           <div className="grid lg:grid-cols-[45%_55%] gap-12 items-center w-full"> */}
 
             <div>
 
-              <h1 className="text-6xl font-bold leading-tight">
+              <h1 className="text-3xl sm:text-5xl md:text-6xl lg:text-7xl font-bold leading-tight">
                 Accelerating
                 <span className="block text-cyan-400">
                   Semiconductor
@@ -35,7 +35,7 @@ export default function Home() {
                 technologies and scalable product development.
               </p>
 
-              <div className="mt-10 flex gap-4">
+              <div className="mt-10 flex flex-col sm:flex-row gap-4">
 
                 <a
                   href="/services"
@@ -163,7 +163,7 @@ export default function Home() {
         </section>
 
         {/* Services Preview */}
-        <section className="max-w-7xl mx-auto px-10 py-20">
+        <section className="max-w-7xl mx-auto px-5 sm:px-6 lg:px-10 py-20">
 
           <h2 className="text-4xl font-bold mb-6">
             Our Core Services
@@ -202,7 +202,7 @@ export default function Home() {
         
 
         {/* Why Choose Us */}
-        <section className="max-w-7xl mx-auto px-10 py-20">
+        <section className="max-w-7xl mx-auto px-5 sm:px-6 lg:px-10 py-20">
 
           <h2 className="text-4xl font-bold mb-12">
             Why Choose Growsilicon
@@ -231,7 +231,7 @@ export default function Home() {
         </section>
 
         {/* CTA Section */}
-        <section className="max-w-7xl mx-auto px-10 py-24">
+        <section className="max-w-7xl mx-auto px-5 sm:px-6 lg:px-10 py-24">
 
           <div className="bg-slate-900 border border-slate-800 rounded-3xl p-12 text-center hover:border-cyan-500 transition-all duration-300">
 

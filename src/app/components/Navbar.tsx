@@ -11,7 +11,7 @@ export default function Navbar() {
       <div className="max-w-7xl mx-auto flex justify-between items-center px-5 lg:px-10 py-2">
 
         <Image
-          src="/logo_2.png"
+          src="/logo_3.png"
           alt="Growsilicon"
           width={240}
           height={70}

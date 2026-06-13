@@ -64,7 +64,7 @@ export default function Contact() {
               </h3>
 
               <p className="text-slate-300">
-                devkartriveni@gmail.com
+                info@growsilicon.com
               </p>
 
             </div>
@@ -76,7 +76,7 @@ export default function Contact() {
               </h3>
 
               <p className="text-slate-300">
-                +91 7483708896
+                +91 8041267405
               </p>
 
             </div>

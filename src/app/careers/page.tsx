@@ -203,7 +203,7 @@ export default function Careers() {
             <div className="w-full max-w-2xl mx-auto bg-slate-800 border border-cyan-500 rounded-xl px-4 md:px-8 py-4">
 
              <p className="text-cyan-400 text-base sm:text-lg md:text-xl font-semibold break-all">
-              devkartriveni@gmail.com
+              careers@growsilicon.com
              </p>
 
             </div>
